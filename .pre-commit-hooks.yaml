@@ -1,0 +1,9 @@
+- id: stillrunning
+  name: stillrunning security scan
+  description: Scan dependencies for supply chain attacks
+  entry: stillrunning-check
+  language: python
+  files: (requirements.*\.txt|package\.json|package-lock\.json|Pipfile|poetry\.lock|setup\.py|pyproject\.toml)$
+  stages: [commit, push]
+  pass_filenames: true
+  always_run: false
