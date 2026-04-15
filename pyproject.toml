@@ -7,7 +7,6 @@ name = "stillrunning-pre-commit"
 version = "1.0.0"
 description = "Pre-commit hook for scanning dependencies against supply chain attacks"
 readme = "README.md"
-license = {text = "MIT"}
 authors = [
     {name = "stillrunning.io", email = "hello@stillrunning.io"}
 ]
