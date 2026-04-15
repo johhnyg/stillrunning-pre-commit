@@ -64,8 +64,9 @@ Or set the `STILLRUNNING_TOKEN` environment variable.
 
 | Feature | Free | With Token |
 |---------|------|------------|
-| Known malicious packages | Unlimited | Unlimited |
-| Threat feed database | Unlimited | Unlimited |
+| Scans per day | 50 | Unlimited |
+| Known malicious packages | Blocked | Blocked |
+| Threat feed database | Checked | Checked |
 | AI analysis of unknown packages | - | 100-10000/day |
 
 Get a token at [stillrunning.io/pricing](https://stillrunning.io/pricing)
