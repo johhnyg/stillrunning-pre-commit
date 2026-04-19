@@ -5,6 +5,8 @@ Pre-commit hook for scanning Python and Node.js dependencies against supply chai
 [![PyPI version](https://badge.fury.io/py/stillrunning-pre-commit.svg)](https://pypi.org/project/stillrunning-pre-commit/)
 [![stillrunning](https://stillrunning.io/badge/protected)](https://stillrunning.io)
 
+> **Note:** Install via repo URL below (not yet listed in pre-commit.com registry)
+
 ## Installation
 
 Add to your `.pre-commit-config.yaml`:
