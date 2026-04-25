@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-stillrunning_check.py
-stillrunning_pre_commit.egg-info/PKG-INFO
-stillrunning_pre_commit.egg-info/SOURCES.txt
-stillrunning_pre_commit.egg-info/dependency_links.txt
-stillrunning_pre_commit.egg-info/entry_points.txt
-stillrunning_pre_commit.egg-info/top_level.txt
