@@ -1,6 +1,6 @@
 # stillrunning-pre-commit
 
-Pre-commit hook for scanning Python and Node.js dependencies against supply chain attacks.
+Pre-commit hook for scanning Python and Node.js dependencies against supply chain attacks. Checks 200,000+ verified malicious packages.
 
 [![PyPI version](https://badge.fury.io/py/stillrunning-pre-commit.svg)](https://pypi.org/project/stillrunning-pre-commit/)
 [![stillrunning](https://stillrunning.io/badge/protected)](https://stillrunning.io)
@@ -35,14 +35,12 @@ pre-commit install
 
 ## Configuration
 
-Create `~/.stillrunning/config.json`:
+Create `~/.stillrunning/config.yaml`:
 
-```json
-{
-  "token": "sr_your_token_here",
-  "block_dangerous": true,
-  "block_suspicious": false
-}
+```yaml
+token: sr_your_token_here
+block_dangerous: true
+block_suspicious: false
 ```
 
 Or set the `STILLRUNNING_TOKEN` environment variable.
@@ -66,7 +64,7 @@ Or set the `STILLRUNNING_TOKEN` environment variable.
 
 | Feature | Free | With Token |
 |---------|------|------------|
-| Scans per day | 50 | Unlimited |
+| Scans per day | 10 | Unlimited |
 | Known malicious packages | Blocked | Blocked |
 | Threat feed database | Checked | Checked |
 | AI analysis of unknown packages | - | 100-10000/day |
