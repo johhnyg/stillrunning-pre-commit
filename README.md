@@ -2,7 +2,7 @@
 
 Pre-commit hook for scanning Python and Node.js dependencies against supply chain attacks. Checks 200,000+ verified malicious packages.
 
-[![PyPI version](https://badge.fury.io/py/stillrunning-pre-commit.svg)](https://pypi.org/project/stillrunning-pre-commit/)
+[![PyPI version](https://img.shields.io/pypi/v/stillrunning-pre-commit)](https://pypi.org/project/stillrunning-pre-commit/)
 [![stillrunning](https://stillrunning.io/badge/protected)](https://stillrunning.io)
 
 > **Note:** Install via repo URL below (not yet listed in pre-commit.com registry)
@@ -28,10 +28,13 @@ pre-commit install
 ## What It Scans
 
 - `requirements.txt`, `requirements-dev.txt`, etc.
-- `package.json`, `package-lock.json`
-- `Pipfile`
+- `package.json`, `package-lock.json`, `pnpm-lock.yaml`
+- `Pipfile`, `Pipfile.lock`
 - `pyproject.toml`
+- `environment.yml`, `pixi.toml`
 - `setup.py` (install_requires)
+
+Browse threats: [stillrunning.io/security-advisories](https://stillrunning.io/security-advisories)
 
 ## Configuration
 
